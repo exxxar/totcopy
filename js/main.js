@@ -1,5 +1,6 @@
 $(document).ready(function(){
 
+
     if (window.innerWidth<=1000)
         $("nav").addClass("humburger");
     else
@@ -56,6 +57,7 @@ $(document).ready(function(){
     $(document).on("mouseleave","nav.humburger.open",function () {
         $(this).removeClass("open");
     });
+
 
 
 });
